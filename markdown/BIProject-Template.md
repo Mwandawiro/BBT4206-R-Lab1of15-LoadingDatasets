@@ -1,7 +1,7 @@
 Business Intelligence Project
 ================
-<Specify your name here>
-<Specify the date when you submitted the lab>
+<Allan Mwandawiro>
+\<10/09/2023\>
 
 - [Student Details](#student-details)
 - [Setup Chunk](#setup-chunk)
@@ -13,12 +13,12 @@ Business Intelligence Project
 
 # Student Details
 
-|                                              |     |
-|----------------------------------------------|-----|
-| **Student ID Number**                        | …   |
-| **Student Name**                             | …   |
-| **BBIT 4.2 Group**                           | …   |
-| **BI Project Group Name/ID (if applicable)** | …   |
+|                                              |                   |
+|----------------------------------------------|-------------------|
+| **Student ID Number**                        | 135372…           |
+| **Student Name**                             | Allan Mwandawiro. |
+| **BBIT 4.2 Group**                           | A                 |
+| **BI Project Group Name/ID (if applicable)** | Wisdom            |
 
 # Setup Chunk
 
@@ -36,18 +36,25 @@ here <https://yihui.org/knitr/options/>.
 
 ### Source:
 
-The dataset that was used can be downloaded here: *\<provide a link\>*
+The dataset that was used can be downloaded here: <a
+href="https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition"
+class="uri"><em>https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition</em></a>
 
 ### Reference:
 
-*\<Cite the dataset here using APA\>  
+*\<*
+
+    Estimation of obesity levels based on eating habits and physical condition . (2019). UCI Machine Learning Repository. https://doi.org/10.24432/C5H31Z.
+
+*\>  
 Refer to the APA 7th edition manual for rules on how to cite datasets:
 <https://apastyle.apa.org/style-grammar-guidelines/references/examples/data-set-references>*
 
 ``` r
 library(readr)
 
-# Provide the executable R code inside the various code chunks  as guided by the lab work.
+
+# Provide the executable R code inside the various code chunks as guided by the lab work.
 ```
 
 …to be continued

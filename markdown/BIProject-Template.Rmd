@@ -15,12 +15,12 @@ editor_options:
 
 # Student Details
 
-|                                              |     |
-|----------------------------------------------|-----|
-| **Student ID Number**                        | 135372... |
+|                                              |                   |
+|----------------------------------------------|-------------------|
+| **Student ID Number**                        | 135372...         |
 | **Student Name**                             | Allan Mwandawiro. |
-| **BBIT 4.2 Group**                           | ... |
-| **BI Project Group Name/ID (if applicable)** | ... |
+| **BBIT 4.2 Group**                           | A                 |
+| **BI Project Group Name/ID (if applicable)** | Wisdom            |
 
 # Setup Chunk
 
@@ -42,15 +42,23 @@ knitr::opts_chunk$set(
 
 ### Source:
 
-The dataset that was used can be downloaded here: *\<provide a link\>*
+The dataset that was used can be downloaded here: [*https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition*](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition){.uri}
 
 ### Reference:
 
-*\<Cite the dataset here using APA\>\
+*\<*
+
+```         
+Estimation of obesity levels based on eating habits and physical condition . (2019). UCI Machine Learning Repository. https://doi.org/10.24432/C5H31Z.
+```
+
+*\>\
 Refer to the APA 7th edition manual for rules on how to cite datasets: <https://apastyle.apa.org/style-grammar-guidelines/references/examples/data-set-references>*
 
 ```{r Dataset Loader}
 library(readr)
+ObesityDataSet_raw_and_data_sinthetic <- read_csv("data/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition/ObesityDataSet_raw_and_data_sinthetic.csv")
+View(ObesityDataSet_raw_and_data_sinthetic)
 
 # Provide the executable R code inside the various code chunks as guided by the lab work.
 ```
