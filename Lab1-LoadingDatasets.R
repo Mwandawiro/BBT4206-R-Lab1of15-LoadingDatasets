@@ -372,6 +372,9 @@ churn_dateset <- read_csv(
 ## Part A ----
 # Specify the code you have used to load your own dataset for the BI Project
 # here:
+library(readr)
+ObesityDataSet_raw_and_data_sinthetic <- read_csv("data/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition/ObesityDataSet_raw_and_data_sinthetic.csv")
+View(ObesityDataSet_raw_and_data_sinthetic)
 
 ## Part B ----
 # Upload *the link* to your "Lab1-LoadingDatasets.R" hosted on Github (do not
